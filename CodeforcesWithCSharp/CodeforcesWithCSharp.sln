@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeforcesWithCSharp", "CodeforcesWithCSharp.csproj", "{96A243C9-3729-4952-8D06-00EC6DF236A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeforcesWithCSharp", "CodeforcesWithCSharp.csproj", "{96A243C9-3729-4952-8D06-00EC6DF236A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4A", "..\4A\4A.csproj", "{438A526B-EE01-45D4-B587-BE90AF56EC18}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{96A243C9-3729-4952-8D06-00EC6DF236A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96A243C9-3729-4952-8D06-00EC6DF236A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96A243C9-3729-4952-8D06-00EC6DF236A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{438A526B-EE01-45D4-B587-BE90AF56EC18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{438A526B-EE01-45D4-B587-BE90AF56EC18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{438A526B-EE01-45D4-B587-BE90AF56EC18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{438A526B-EE01-45D4-B587-BE90AF56EC18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
