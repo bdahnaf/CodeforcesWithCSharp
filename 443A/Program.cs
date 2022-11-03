@@ -1,7 +1,7 @@
 ﻿/**
  * Problem Link - https://codeforces.com/problemset/problem/443/A
  * Author - Ahnaf Shahriar
- * Status - Trying
+ * Status - Accepted
  * Date & Time - 03 November 2022, 03:35 PM
  */
 
