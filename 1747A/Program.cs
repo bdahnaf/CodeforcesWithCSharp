@@ -2,13 +2,13 @@
 //Console.WriteLine("Hello, World!");
 
 int t = int.Parse(Console.ReadLine());
-int[] ansArray = new int[t];
+long[] ansArray = new long[t];
 for (int j = 0; j < t; j++)
 {
-    int n = int.Parse(Console.ReadLine());
-    int[] input = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-    int sum1 = 0;
-    int sum2 = 0;
+    long n = long.Parse(Console.ReadLine());
+    long[] input = Array.ConvertAll(Console.ReadLine().Split(' '), long.Parse);
+    long sum1 = 0;
+    long sum2 = 0;
     for (int i = 0; i < input.Length; i++)
     {
         if (input[i] > 0)
@@ -20,7 +20,7 @@ for (int j = 0; j < t; j++)
             sum2 += input[i];
         }
     }
-    ansArray[j] = Math.Abs(Math.Abs(sum1) - Math.Abs(sum2));
+    ansArray[j] = (long)Math.Abs(Math.Abs((decimal)sum1) - Math.Abs((decimal)sum2));
     sum1 = 0;
     sum2 = 0;
 }
