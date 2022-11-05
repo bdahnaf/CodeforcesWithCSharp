@@ -1,5 +1,9 @@
-﻿//// See https://aka.ms/new-console-template for more information
-//Console.WriteLine("Hello, World!");
+﻿/**
+ * Problem Link - https://codeforces.com/problemset/problem/1747/A
+ * Author - Ahnaf Shahriar
+ * Status - Accepted
+ * Date & Time - 05 November 2022, 11:46 AM
+ */
 
 int t = int.Parse(Console.ReadLine());
 long[] ansArray = new long[t];
