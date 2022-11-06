@@ -1,8 +1,8 @@
 ﻿/**
  * Problem Link - https://codeforces.com/problemset/problem/263/A
  * Author - Ahnaf Shahriar
- * Status - Trying
- * Date & Time - 06 November 2022, 09:55 PM
+ * Status - Accepted
+ * Date & Time - 06 November 2022, 10:07 PM
  */
 int[] input;
 int[,] arr = new int[5,5];
