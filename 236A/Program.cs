@@ -6,21 +6,25 @@
  */
 
 string word = Console.ReadLine();
-
 int len = word.Length;
-char[] wordArr = new char[len];
-int flag = 0;
-int pos = 0;
-
+int ans = len;
 for (int i = 0; i < len; i++)
 {
-    for (int j = 0; j <= i; j++)
+    for (int j = i + 1; j < len; j++)
     {
-        //if (wordArr[j] == word[i])
-        //{
-        //    flag = 1;
-        //    pos
-        //}
-        wordArr[i] = word[i];
+        if (word[i] == word[j])
+        {
+            ans--;
+            break;
+        }
     }
+}
+
+if (ans % 2 == 0)
+{
+    Console.WriteLine("CHAT WITH HER!");
+}
+else
+{
+    Console.WriteLine("IGNORE HIM!");
 }
