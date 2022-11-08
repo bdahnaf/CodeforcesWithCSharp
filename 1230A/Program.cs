@@ -6,22 +6,40 @@
  */
 
 int[] input = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
-int sum = input[0] + input[1] + input[2] + input[3];
-if (sum % 2 == 0)
+int a = input[0];
+int b = input[1];
+int c = input[2];
+int d = input[3];
+
+if ((a + b) == (c + d))
+{
+    Console.WriteLine("YES");
+}
+else if ((a + c) == (b + d))
+{
+    Console.WriteLine("YES");
+}
+else if ((b + c) == (a + d))
+{
+    Console.WriteLine("YES");
+}
+else if ((a + b + c) == d)
+{
+    Console.WriteLine("YES");
+}
+else if ((b + c + d) == a)
+{
+    Console.WriteLine("YES");
+}
+else if ((a + b + d) == c)
+{
+    Console.WriteLine("YES");
+}
+else if ((a + c + d) == b)
 {
     Console.WriteLine("YES");
 }
 else
 {
     Console.WriteLine("NO");
-}
-
-for (int i = 0; i < 4; i++)
-{
-    for (int j = i + 1; j <= i; j++)
-    {
-        Console.WriteLine("Adding " + input[i] + " + " + input[j] + " = " + input[i] + input[j]);
-    }
-
-    Console.WriteLine("__------------------------");
 }
