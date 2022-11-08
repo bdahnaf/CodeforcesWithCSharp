@@ -1,8 +1,8 @@
 ﻿/**
  * Problem Link - https://codeforces.com/problemset/problem/1230/A
  * Author - Ahnaf Shahriar
- * Status - Trying
- * Date & Time - 06 November 2022, 12:09 AM
+ * Status - Accepted
+ * Date & Time - 08 November 2022, 10:18 PM
  */
 
 int[] input = Array.ConvertAll(Console.ReadLine().Split(' '), int.Parse);
