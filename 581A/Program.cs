@@ -23,4 +23,3 @@ else if (b > a)
     a = 0;
     b = b - a;
 }
-if 
