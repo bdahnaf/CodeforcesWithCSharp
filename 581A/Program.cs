@@ -17,8 +17,6 @@ if (a > b)
     dif = b;
     a = a - b;
     b = 0;
-    
-    //Console.WriteLine(a);
     if (a % 2 == 0)
     {
         same = a / 2;
@@ -33,7 +31,6 @@ else if (b > a)
     dif = a;
     b = b - a;
     a = 0;
-    //Console.WriteLine("b" + b);
     if (b % 2 == 0)
     {
         same = b / 2;
@@ -52,7 +49,4 @@ else
     dif = a;
     same = 0;
 }
-
-//Console.WriteLine(dif);
-//Console.WriteLine(same);
 Console.WriteLine(dif + " " + same);
