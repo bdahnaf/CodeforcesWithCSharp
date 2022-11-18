@@ -38,6 +38,7 @@ while (n > 0)
 }
 
 Console.WriteLine(ans[0]);
+Console.WriteLine(ans[1]);
 for (int i = 0; i < ans.Length; i++)
 {
     Console.WriteLine(ans[i]);
